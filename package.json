@@ -2,10 +2,10 @@
   "name": "react-native-ffmpegkit",
   "version": "1.0.0",
   "description": "FFmpeg Kit for React Native",
-  "main": "src/index",
+  "main": "src/index.js",
   "types": "src/index.d.ts",
-  "react-native": "src/index",
-  "source": "src/index",
+  "react-native": "src/index.js",
+  "source": "src/index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -18,16 +18,13 @@
     "ffmpeg-kit",
     "ios"
   ],
-  "repository": "https://github.com/arthenica/ffmpeg-kit",
+  "repository": "https://github.com/snice/react-native-ffmpegkit",
   "author": "ARTHENICA <open-source@arthenica.com> (https://www.arthenica.com)",
   "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/arthenica/ffmpeg-kit/issues"
   },
-  "homepage": "https://github.com/arthenica/ffmpeg-kit",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
+  "homepage": "https://github.com/snice/react-native-ffmpegkit",
   "devDependencies": {
     "@commitlint/config-conventional": "^17.7.0",
     "@react-native-community/eslint-config": "^2.0.0",
