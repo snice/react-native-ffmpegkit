@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 
   s.dependency "React-Core"
 
-  s.source_files      = '**/FFmpegKitReactNativeModule.m', '**/FFmpegKitReactNativeModule.h'
-  s.vendored_frameworks = '**/Frameworks/*.{framework,xcframework}'
+  s.source_files      = 'ios/FFmpegKitReactNativeModule.m', 'ios/FFmpegKitReactNativeModule.h'
+  s.vendored_frameworks = 'ios/Frameworks/*.{framework,xcframework}'
   s.ios.deployment_target = '12.1'
 
 end
